@@ -1,0 +1,47 @@
+@charset "utf-8";
+header{width: 100%; height: 100px; background-color: #fff;
+    box-shadow: 0 2px 2px rgb(0 0 0 / 50%);
+    position: fixed;
+    top: 0;
+    z-index: 5;}
+header .wrap {width: 1200px; height: 100%; margin: 0 auto;display: flex; align-items: center; justify-content: space-between;}
+header .wrap nav {width: calc(100% / 12 * 6);display: flex; align-items: center; height: 100%;}
+header .wrap nav .menu {display: flex; width: calc(100% / 12 * 3);}
+header .wrap nav .menu li{align-items: center; margin: 10px; width: calc(100% / 1);}
+header .wrap nav .menu li a{font-size: 12px;color: #323232;display: block;}
+header .wrap nav .logo_part{width: calc(100% / 12 * 2); margin-right: 20px;}
+header .wrap nav .logo_part img {height: 44px;}
+header .wrap .icon_part {display: flex;}
+header .wrap .icon_part img{height: 20px; margin-left: 10px;}
+
+footer{ width: 100%; padding: 40px 0;     background-color: #323232;}
+footer .warp {width: 1200px; height: 100%; margin: 0 auto;}   
+footer .warp .cont{display: flex; justify-content: space-between;} 
+footer .warp .cont .left{display: flex; width: 100%;}
+
+footer .warp .cont .left .f_logo{width: calc(100% / 9 * 2);}
+footer .warp .cont .left .f_logo img{height: 40px;} 
+footer .warp .cont .left .menu {display: flex; color: white; width: 100%;}
+footer .warp .cont .left .menu > ul {display: flex;  width: calc(100% / 9 * 7);}
+footer .warp .cont .left .menu > ul li {line-height: 40px; width: 100%; }
+footer .warp .cont .left .menu > ul > li > a{
+        font-size: 16px;
+        color: #c1c1c1;
+        font-weight: 700;width: 180px;}
+footer .warp .cont .left .menu > ul > li a:hover{color: white;}
+
+footer .warp .cont .left .menu > ul > li { line-height: 35px;
+    font-size: 16px;
+    color: #c1c1c1;
+    font-weight: 300;}
+
+footer .warp .cont .right{display: flex; align-items: center;}
+footer .warp .cont .right ul{display: flex; }
+footer .warp .cont .right ul li {margin: 0 10px;}
+footer .warp .cont .right ul li img{height: 80px;}
+
+footer .warp .Copyright {padding-top: 20px;    text-align: center;
+    font-size: 14px;
+    color: #c1c1c1;
+    line-height: 20px;}
+
